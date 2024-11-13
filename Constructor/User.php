@@ -1,6 +1,6 @@
 <?php
     class User {
-        public $id, $name, $email, $address, $role;  // melakukan registrasi properti global
+        public $id, $name, $email, $address, $role;  // melakukan registrasi properti yang dibutuhkan
 
         public function __construct($dataUser = [])  {  // constructor dengan array kosong sebagai variable parameter
             $this->id = $dataUser['id'] ?? null;
